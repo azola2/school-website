@@ -1,0 +1,307 @@
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+  html{
+      height: 100%;
+  }
+  
+body{
+    background-color: rgb(214, 16, 16);
+    color:white;
+    min-height: 100%;
+    margin: 0;
+}
+
+ul li{
+    display: inline;
+    font-weight: bold;
+
+}
+a
+    #nav{
+    background-color: rgb(214, 16, 16);
+}
+
+#nav a{
+    color: white;
+    padding: 14px ;
+    text-decoration: none;
+    float: right;
+}
+
+#nav a:hover{
+    color: grey;
+}
+
+
+
+
+.principal{
+    float: left;
+    padding: 0 20px 20px 0;
+}
+.p{
+    line-height: 1.5rem;
+   font-size: 20px;
+}
+
+.left{
+    float: left;
+    padding: 0 20px 20px 0;
+}
+.admission1{
+    
+    background-color: gray;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+.admission2{
+
+    background-color: gray;
+    padding: 15px;
+    border-radius: 5%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px;
+    gap: 50%;
+    
+}
+
+.contact1{
+    
+    background-color: gray;
+    padding: 15px;
+}
+
+.contact2{
+    
+    background-color: gray;
+    padding: 15px;
+}
+
+.contact1 a{
+
+    color: white ;
+    text-decoration:none;
+    margin-left: 10px;
+}
+
+.contact2 a, h2{
+
+    color: white ;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+.contact1 a:hover{
+
+    color: red ;
+    
+}
+
+.contact2 a:hover{
+
+
+    color: red ;
+    
+}
+
+button{
+    border-radius: 46%;
+    padding: 20px;
+    margin: auto;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(214, 16, 16);
+    margin-left: 30%;
+    border: 2px solid white;
+
+}
+h1{
+    text-align: center;
+
+}
+
+.footer{
+    text-align: center;
+    margin-top: auto;
+    background-color: gray;
+    height: 30px;
+
+}
+
+.grid-container{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    
+}
+
+.grid-container img{
+    border: 4px solid white;
+}
+
+
+
+
+@media screen and  (max-width:481) {
+
+    @viewport {
+        width: device-width ;
+        zoom: 1.0 ;
+      }
+      html{
+          height: 100%;
+      }
+      
+    body{
+        background-color: rgb(214, 16, 16);
+        color:white;
+        min-height: 100%;
+        margin: 0;
+    }
+    
+    ul li{
+        display: inline;
+        font-weight: bold;
+    
+    }
+    a
+        #nav{
+        background-color: rgb(214, 16, 16);
+    }
+    
+    #nav a{
+        color: white;
+        padding: 14px ;
+        text-decoration: none;
+        float: right;
+    }
+    
+    #nav a:hover{
+        color: grey;
+    }
+    
+    
+    
+    
+    .principal{
+        float: left;
+        padding: 0 20px 20px 0;
+    }
+    .p{
+        line-height: 1.5rem;
+       font-size: 20px;
+    }
+    
+    .left{
+        float: left;
+        padding: 0 20px 20px 0;
+    }
+    .admission1{
+        
+        background-color: gray;
+        padding: 20px;
+        border-radius: 5%;
+    }
+    
+    .admission2{
+    
+        background-color: gray;
+        padding: 15px;
+        border-radius: 5%;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 300px;
+        gap: 50%;
+        
+    }
+    
+    .contact1{
+        
+        background-color: gray;
+        padding: 15px;
+    }
+    
+    .contact2{
+        
+        background-color: gray;
+        padding: 15px;
+    }
+    
+    .contact1 a{
+    
+        color: white ;
+        text-decoration:none;
+        margin-left: 10px;
+    }
+    
+    .contact2 a, h2{
+    
+        color: white ;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+    
+    
+    .contact1 a:hover{
+    
+        color: red ;
+        
+    }
+    
+    .contact2 a:hover{
+    
+    
+        color: red ;
+        
+    }
+    
+    button{
+        border-radius: 46%;
+        padding: 20px;
+        margin: auto;
+        cursor: pointer;
+        color: white;
+        background-color: rgb(214, 16, 16);
+        margin-left: 30%;
+        border: 2px solid white;
+    
+    }
+    h1{
+        text-align: center;
+    
+    }
+    
+    .footer{
+        text-align: center;
+        margin-top: auto;
+        background-color: gray;
+        height: 30px;
+    
+    }
+    
+    .grid-container{
+    
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 30px;
+        
+    }
+    
+    .grid-container img{
+        border: 4px solid white;
+    }
+
+
+    
+    
+}
